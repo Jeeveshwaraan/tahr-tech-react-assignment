@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f4f4f4;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f4;
+}
+
+.login-box {
+  width: 350px;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #222;
+}
+
+.login-box input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #333;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #555;
+}
+
+.error {
+  color: #d32f2f;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.student-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: #f4f4f4;
+  box-sizing: border-box;
+}
+
+.student-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.student-table {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+.student-table th,
+.student-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  color: #222;
+}
+
+.student-table th {
+  background: #333;
+  color: white;
+}
+
+.student-table tr:hover {
+  background: #f5f5f5;
+}
